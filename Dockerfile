@@ -1,0 +1,4 @@
+FROM scratch
+EXPOSE 8080
+ENTRYPOINT ["/x4444"]
+COPY ./bin/ /
